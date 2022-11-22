@@ -24,4 +24,4 @@ Displays the letters of my initials (AR) and allows the user to move the current
 > $ ./scroll **-c COLOR**
 * Sets the scrolling display color to the color given. COLOR may be one of white, red, green, or blue.
 > $ ./scroll **-nskip**
-* Skips directly to the second letter and then displays the number of command-line arguments the user passed.
+* Skips directly to the second letter and then displays the number of command line arguments the user passed.
