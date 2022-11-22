@@ -19,9 +19,9 @@ Displays the letters of my initials (AR) and allows the user to move the current
 3) To exit the program, press Enter again.
 
 ## Extra Command Line Arguments Supported:
-> $ ./scroll -h
+> $ ./scroll **-h**
 * Explains how to run the program and then exits.
-> $ ./scroll -c COLOR
+> $ ./scroll **-c COLOR**
 * Sets the scrolling display color to the color given. COLOR may be one of white, red, green, or blue.
-> $ ./scroll -nskip
+> $ ./scroll **-nskip**
 * Skips directly to the second letter and then displays the number of command-line arguments the user passed.
