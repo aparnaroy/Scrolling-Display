@@ -67,7 +67,6 @@ int main(int argc, char **argv) {
     if (help == 1 || validarg == 2) {
         printf("Your first argument was: %s. To run the program type make, hit ENTER, and then type ./scroll.\nYou will be able to use the arrow keys to move a letter around, and then after hitting ENTER, will be able to do the same with another letter.\nPressing ENTER a third time will exit from the program.\n\nUse the -c COLOR argument, where COLOR can be white, red, green, or blue, to set the scrolling display color to the given color.\nUse the -nskip argument to skip directly to the second letter and then see the number of command-line arguments you passed.\n", argv[0]);
         exit(0);
-        //mode = 3;
     }
 
     if (argument == 2) {
